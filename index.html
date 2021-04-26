@@ -178,6 +178,9 @@ body.assistant {
 body.instruction { 
 	font-family: 'Roboto', monospace;
 }
+.navigation {
+  	font-family: 'Lato', sans-serif;
+}
 
 /*
 	TABLET-SPECIFIC RULES / SMALL WIDTH BROWSERS
@@ -218,7 +221,7 @@ body.instruction {
   }  
   
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">UIBar.destroy();
-</script><tw-passagedata pid="1" name="Dear Ambassador" tags="instruction" position="99,300" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
+</script><tw-passagedata pid="1" name="Dear Ambassador" tags="instruction" position="99,299" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 3 January 2024
 
 Dear $firstname
@@ -237,8 +240,8 @@ I have arranged for a suitable budget to be allocated, and for you to have acces
 &lt;img src=&quot;Assets/fm-signature.png&quot; width=&quot;200&quot;&gt;
 Prime Minister of Scotland&lt;/center&gt;
 
-&lt;center&gt;[[Reply|Dear Prime Minister]]&lt;/center&gt;
-&lt;center&gt;[[Back|Start]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Reply|Dear Prime Minister]]&lt;/center&gt;
+&lt;center&gt;[[Back|Start]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="instruction" position="100,97" size="100,100">&lt;center&gt;&lt;h1&gt;Letters to Scotland&lt;/h1&gt;&lt;/center&gt;
 Congratulations on being appointed as newly independent Scotland’s first Ambassador to Central Asia.  The Scottish Government has decided to place only one embassy in the region, which will provide diplomatic and consular coverage of all five countries in the region, as well as serving as an important channel for Scotland’s soft power projection.
 
@@ -261,9 +264,7 @@ The story is based on correspondence between you and the Prime Minister of Scotl
 Some letters have &lt;&lt;linkreplace &quot;text like this in the body of the letter&quot;&gt;&gt;which will give you more information if you click it&lt;&lt;/linkreplace&gt;&gt;.  If you click this, it will give you more information or provide a translation.  There are also links at the bottom of each page for navigation.
 
 Make sure you read carefully, because you will have to make a decision later that will change the ending!
-
-&lt;center&gt;[[Click here to start|Dear Ambassador]]&lt;/center&gt;
-
+&lt;center&gt;&lt;h1&gt;[[Click here to start|Dear Ambassador]]&lt;/h1&gt;&lt;/center&gt;
 
 
 
@@ -275,7 +276,8 @@ Make sure you read carefully, because you will have to make a decision later tha
 
 
 
-&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span xmlns:dct=&quot;http://purl.org/dc/terms/&quot; href=&quot;http://purl.org/dc/dcmitype/InteractiveResource&quot; property=&quot;dct:title&quot; rel=&quot;dct:type&quot;&gt;Letters to Scotland&lt;/span&gt; by &lt;span xmlns:cc=&quot;http://creativecommons.org/ns#&quot; property=&quot;cc:attributionName&quot;&gt;Elliot Napier&lt;/span&gt; is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License&lt;/a&gt;.</tw-passagedata><tw-passagedata pid="3" name="Dear Prime Minister" tags="" position="99,450" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/ambassador-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
+
+&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span xmlns:dct=&quot;http://purl.org/dc/terms/&quot; href=&quot;http://purl.org/dc/dcmitype/InteractiveResource&quot; property=&quot;dct:title&quot; rel=&quot;dct:type&quot;&gt;Letters to Scotland&lt;/span&gt; by &lt;span xmlns:cc=&quot;http://creativecommons.org/ns#&quot; property=&quot;cc:attributionName&quot;&gt;Elliot Napier&lt;/span&gt; is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License&lt;/a&gt;.</tw-passagedata><tw-passagedata pid="3" name="Dear Prime Minister" tags="" position="99,449" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/ambassador-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 14 January 2024
 
 Dear Prime Minister, Dear Minister of Foreign Affairs,
@@ -295,8 +297,8 @@ With best wishes,
 $firstname $surname
 HM Ambassador
 
-&lt;center&gt;[[Read the &quot;brief&quot; policy note|Assistant Briefing]]&lt;/center&gt;
-&lt;center&gt;[[Back|Dear Ambassador]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Read the &quot;brief&quot; policy note|Assistant Briefing]]&lt;/center&gt;
+&lt;center&gt;[[Back|Dear Ambassador]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Assistant Briefing" tags="assistant" position="100,600" size="100,100">&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 
 &lt;b&gt;Microsoft Outlook&lt;/b&gt;
@@ -371,8 +373,8 @@ e: adviser.amb.cenasia@dfa.gov.scot
 t: +44 (0) 131 496 0387 
 &lt;img src=&quot;Assets/ambassador-letterhead.png&quot; width=&quot;200&quot;&gt;
 
-&lt;center&gt;[[To Nur-Sultan!|Letter from Kazakhstan]]&lt;/center&gt;
-&lt;center&gt;[[Back|Dear Prime Minister]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[To Nur-Sultan!|Letter from Kazakhstan]]&lt;/center&gt;
+&lt;center&gt;[[Back|Dear Prime Minister]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;
 </tw-passagedata><tw-passagedata pid="5" name="Letter from Kazakhstan" tags="" position="100,750" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/ambassador-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 22 January 2024
@@ -429,8 +431,8 @@ I look forward to travelling to Bishkek tomorrow and reporting back to you soon.
 $firstname $surname
 HM Ambassador
 
-&lt;center&gt;[[On to Bishkek!|Letter from Kyrgyzstan]]&lt;/center&gt;
-&lt;center&gt;[[Back|Assistant Briefing]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[On to Bishkek!|Letter from Kyrgyzstan]]&lt;/center&gt;
+&lt;center&gt;[[Back|Assistant Briefing]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -491,8 +493,8 @@ Tomorrow we will travel onwards to Tashkent.  This evening, a state banquet will
 $firstname $surname
 HM Ambassador
 
-&lt;center&gt;[[Let&#39;s go to Tashkent!|Letter from Uzbekistan]]&lt;/center&gt;
-&lt;center&gt;[[Back|Letter from Kazakhstan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Let&#39;s go to Tashkent!|Letter from Uzbekistan]]&lt;/center&gt;
+&lt;center&gt;[[Back|Letter from Kazakhstan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -552,14 +554,14 @@ Eng yaxshi tilaklar bilan,
 $firstname $surname
 HM Ambassador
 
-&lt;center&gt;[[To Dushanbe!|Reprimand]]&lt;/center&gt;
-&lt;center&gt;[[Back|Letter from Kyrgyzstan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[To Dushanbe!|Reprimand]]&lt;/center&gt;
+&lt;center&gt;[[Back|Letter from Kyrgyzstan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
 
 Image credit: 
-&lt;a href=&quot;https://www.flickr.com/photos/30996501@N07/6368484835&quot;&gt;&quot;Tashkent Madrasa Kukeldash&quot;&lt;/a&gt;&lt;span&gt; by &lt;a href=&quot;https://www.flickr.com/photos/30996501@N07&quot;&gt;Jose Javier Martin Espartosa&lt;/a&gt;&lt;/span&gt; is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=html&quot; style=&quot;margin-right: 5px;&quot;&gt;CC BY-NC-SA 2.0&lt;/a&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; style=&quot;display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;&quot;&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc_icon.svg?image_id=5a981326-932d-4da8-ae1e-aa0a0e295994&quot; /&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc-by_icon.svg&quot; /&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc-nc_icon.svg&quot; /&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc-sa_icon.svg&quot; /&gt;&lt;/a&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Reprimand" tags="instruction" position="100,1200" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
+&lt;a href=&quot;https://www.flickr.com/photos/30996501@N07/6368484835&quot;&gt;&quot;Tashkent Madrasa Kukeldash&quot;&lt;/a&gt;&lt;span&gt; by &lt;a href=&quot;https://www.flickr.com/photos/30996501@N07&quot;&gt;Jose Javier Martin Espartosa&lt;/a&gt;&lt;/span&gt; is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=html&quot; style=&quot;margin-right: 5px;&quot;&gt;CC BY-NC-SA 2.0&lt;/a&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; style=&quot;display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;&quot;&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc_icon.svg?image_id=5a981326-932d-4da8-ae1e-aa0a0e295994&quot; /&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc-by_icon.svg&quot; /&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc-nc_icon.svg&quot; /&gt;&lt;img style=&quot;height: inherit;margin-right: 3px;display: inline-block;&quot; src=&quot;https://search.creativecommons.org/static/img/cc-sa_icon.svg&quot; /&gt;&lt;/a&gt;&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Reprimand" tags="instruction" position="100,1199" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 7 February 2024
 
 
@@ -579,9 +581,9 @@ Stay &lt;&lt;linkreplace &quot;in the hoose&quot;&gt;&gt;at home&lt;&lt;/linkrep
 &lt;img src=&quot;Assets/fm-signature.png&quot; width=&quot;200&quot;&gt;
 Prime Minister of Scotland&lt;/center&gt;
 
-&lt;center&gt;[[I&#39;m very sorry|Letter from Tajikistan]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[I&#39;m very sorry|Letter from Tajikistan]]&lt;/center&gt;
 
-&lt;center&gt;[[Back|Letter from Uzbekistan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;center&gt;[[Back|Letter from Uzbekistan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="Letter from Tajikistan" tags="" position="100,1351" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/ambassador-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 10 February 2024
 
@@ -639,8 +641,8 @@ Our visit here will soon come to an end and tomorrow we depart for Ashgabat.  Th
 $firstname $surname
 HM Ambassador
 
-&lt;center&gt;[[Let&#39;s fly to Ashgabat!|Letter from Turkmenistan]]&lt;/center&gt;
-&lt;center&gt;[[Back|Reprimand]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Let&#39;s fly to Ashgabat!|Letter from Turkmenistan]]&lt;/center&gt;
+&lt;center&gt;[[Back|Reprimand]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -700,8 +702,8 @@ Iň gowy arzuwlar bilen
 $firstname $surname
 HM Ambassador
 
-&lt;center&gt;[[Let&#39;s head home to Scotland|Welcome Home]]&lt;/center&gt;
-&lt;center&gt;[[Back|Letter from Tajikistan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Let&#39;s head home to Scotland|Welcome Home]]&lt;/center&gt;
+&lt;center&gt;[[Back|Letter from Tajikistan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -725,8 +727,8 @@ I look forward to hearing from you.
 &lt;img src=&quot;Assets/fm-signature.png&quot; width=&quot;200&quot;&gt;
 Prime Minister of Scotland&lt;/center&gt;
 
-&lt;center&gt;[[Let&#39;s make a decision|Decision Time]]&lt;/center&gt;
-&lt;center&gt;[[Back|Letter from Turkmenistan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Let&#39;s make a decision|Decision Time]]&lt;/center&gt;
+&lt;center&gt;[[Back|Letter from Turkmenistan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;
 </tw-passagedata><tw-passagedata pid="12" name="Decision Time" tags="instruction" position="101,1799" size="100,100">&lt;center&gt;&lt;h1&gt;It&#39;s decision time!&lt;/h1&gt;&lt;/center&gt;
 
@@ -835,7 +837,7 @@ Prime Minister of Scotland&lt;/center&gt;
 [[Fantastic news!|Nursultan News]]
 [[Wait! Let me think again|Decision Time]]&lt;/center&gt;
 
-&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;
 </tw-passagedata><tw-passagedata pid="14" name="Kyrgyzstan" tags="instruction" position="299,1951" size="100,100">&lt;&lt;set $ending to &quot;Kyrgyzstan&quot;&gt;&gt;&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 1 March 2024
@@ -859,7 +861,7 @@ Prime Minister of Scotland&lt;/center&gt;
 [[Fantastic news!|Bishkek Broadsheet]]
 [[Wait! Let me think again|Decision Time]]&lt;/center&gt;
 
-&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;
 </tw-passagedata><tw-passagedata pid="15" name="Tajikistan" tags="instruction" position="650,1950" size="100,100">&lt;&lt;set $ending to &quot;Tajikistan&quot;&gt;&gt;&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 1 March 2024
@@ -886,7 +888,7 @@ Prime Minister of Scotland&lt;/center&gt;
 [[I resign|Dushanbe Dispatch]]
 [[Wait! Let me think again|Decision Time]]&lt;/center&gt;
 
-&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;
 </tw-passagedata><tw-passagedata pid="16" name="Turkmenistan" tags="instruction" position="799,1949" size="100,100">&lt;&lt;set $ending to &quot;Turkmenistan&quot;&gt;&gt;&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 1 March 2024
@@ -913,7 +915,7 @@ Prime Minister of Scotland&lt;/center&gt;
 [[I resign|Ashgabat Argus]]
 [[Wait! Let me think again|Decision Time]]&lt;/center&gt;
 
-&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;
 </tw-passagedata><tw-passagedata pid="17" name="Uzbekistan" tags="instruction" position="450,1950" size="100,100">&lt;&lt;set $ending to &quot;Uzbekistan&quot;&gt;&gt;&lt;center&gt;&lt;img src=&quot;Assets/fm-letterhead.png&quot; width=&quot;50%&quot;&gt;&lt;/center&gt;&lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;
 1 March 2024
@@ -937,7 +939,7 @@ Prime Minister of Scotland&lt;/center&gt;
 [[Fantastic news!|Tashkent Telegraph]]
 [[Wait! Let me think again|Decision Time]]&lt;/center&gt;
 
-&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Back|Decision Time]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 &lt;&lt;/type&gt;&gt;
 </tw-passagedata><tw-passagedata pid="18" name="Nursultan News" tags="newspaper" position="99,2099" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/nursultan-news.png&quot; width=100%&gt;&lt;/center&gt;
 &lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;&lt;center&gt;&lt;h1&gt;SCOTTISH EMBASSY OPENS IN NUR-SULTAN&lt;/h1&gt;&lt;/center&gt;
@@ -950,8 +952,8 @@ Sources in the Foreign Ministry told this newspaper that Scotland will only open
 
 The new ambassador told the press &quot;I have always been very fond of Kazakhstan and I look forward to continuing to enjoy your warm hospitality.&quot;
 
-&lt;center&gt;[[Next|End]]&lt;/center&gt;
-&lt;center&gt;[[Back|Kazakhstan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Next|End]]&lt;/center&gt;
+&lt;center&gt;[[Back|Kazakhstan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -962,6 +964,8 @@ Image credits:
 &lt;a href=&quot;https://pixabay.com/photos/saltire-scottish-flag-scotland-1070039/&quot;&gt;&quot;Saltire Scottish Flag Scotland&quot;&lt;/a&gt;&lt;span&gt; by &lt;a href=&quot;https://pixabay.com/users/27707-27707/&quot;&gt;27707&lt;/a&gt;&lt;/span&gt; is licensed under &lt;a href=&quot; https://pixabay.com/service/license/&quot; style=&quot;margin-right: 5px;&quot;&gt;Pixabay License&lt;/a&gt;
 &lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="End" tags="" position="100,2252" size="100,100">&lt;center&gt;&lt;h1&gt;The End&lt;/h1&gt;&lt;/center&gt;
 Well done, $firstname - you made it to the end!  Maybe you even kept your ambassadorial position too.  It depends on the decisions you made!
+
+Do you want to go back to the start of the story? You can [[Restart|Start]] here.
 
 Do you want to make a different choice and see what changes?  You can go back to [[Decision Time]] and try again.
 
@@ -994,8 +998,8 @@ A spokesperson for the Prime Minister of Scotland said “we are delighted that 
 
 The new ambassador told the press &quot;I have always been very fond of Kyrgyzstan and I look forward to continuing to enjoy your warm hospitality.&quot;
 
-&lt;center&gt;[[Next|End]]&lt;/center&gt;
-&lt;center&gt;[[Back|Kyrgyzstan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Next|End]]&lt;/center&gt;
+&lt;center&gt;[[Back|Kyrgyzstan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -1017,8 +1021,8 @@ A spokesperson for the Prime Minister of Scotland said “we are delighted that 
 
 The new ambassador told the press &quot;I have always been very fond of Uzbekistan and I look forward to continuing to enjoy your warm hospitality.&quot;
 
-&lt;center&gt;[[Next|End]]&lt;/center&gt;
-&lt;center&gt;[[Back|Uzbekistan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Next|End]]&lt;/center&gt;
+&lt;center&gt;[[Back|Uzbekistan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -1040,8 +1044,8 @@ A spokesperson for the Prime Minister of Scotland said “Nur-Sultan was the bes
 
 Sources in the Foreign Ministry told this newspaper that the Tajikistani government is disappointed, but the decision did not come as a shock.
 
-&lt;center&gt;[[Next|End]]&lt;/center&gt;
-&lt;center&gt;[[Back|Tajikistan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Next|End]]&lt;/center&gt;
+&lt;center&gt;[[Back|Tajikistan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
@@ -1050,7 +1054,7 @@ Image credits:
 &lt;a href=&quot;https://pixabay.com/illustrations/drawing-eagle-flying-bird-wings-1606159/ &quot;&gt;&quot;Drawing Eagle Flying Bird Wings 1606159&quot;&lt;/a&gt;&lt;span&gt; by &lt;a href=&quot; https://pixabay.com/users/posemuse-2382407/&quot;&gt;Justin Martin&lt;/a&gt;&lt;/span&gt; is licensed under &lt;a href=&quot; https://pixabay.com/service/license/&quot; style=&quot;margin-right: 5px;&quot;&gt;Pixabay License&lt;/a&gt;
 &lt;a href=&quot;https://pixabay.com/photos/astana-landscape-city-kazakhstan-4398271/&quot;&gt;&quot;Astana Landscape City Kazakhstan Building&quot;&lt;/a&gt;&lt;span&gt; by &lt;a href=&quot; https://pixabay.com/users/kuanish-sar-4952923/&quot;&gt;Kuanish Sarsenov&lt;/a&gt;&lt;/span&gt; is licensed under &lt;a href=&quot; https://pixabay.com/service/license/&quot; style=&quot;margin-right: 5px;&quot;&gt;Pixabay License&lt;/a&gt;
 &lt;a href=&quot;https://pixabay.com/photos/saltire-scottish-flag-scotland-1070039/&quot;&gt;&quot;Saltire Scottish Flag Scotland&quot;&lt;/a&gt;&lt;span&gt; by &lt;a href=&quot;https://pixabay.com/users/27707-27707/&quot;&gt;27707&lt;/a&gt;&lt;/span&gt; is licensed under &lt;a href=&quot; https://pixabay.com/service/license/&quot; style=&quot;margin-right: 5px;&quot;&gt;Pixabay License&lt;/a&gt;
-&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="Ashgabat Argus" tags="newspaper" position="798,2101" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/ashgabat-argus.png&quot; width=100%&gt;&lt;/center&gt;
+&lt;&lt;/type&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="Ashgabat Argus" tags="newspaper" position="797,2101" size="100,100">&lt;center&gt;&lt;img src=&quot;Assets/ashgabat-argus.png&quot; width=100%&gt;&lt;/center&gt;
 &lt;&lt;type 1ms element &quot;span&quot;&gt;&gt;&lt;center&gt;&lt;h1&gt;ASHGABAT SNUBBED BY SCOTS - EMBASSY GOES TO NUR-SULTAN&lt;/h1&gt;&lt;/center&gt;
 &lt;center&gt;&lt;img src=&quot;Assets/nur-sultan-embassy.png&quot; width=100%&gt;&lt;/center&gt;
 The Central Asian Embassy of the world&#39;s newest country was officially opened today in Nur-Sultan, Kazakhstan. But the flashy event was overshadowed by news that a fact-finding mission earlier this year had recommended the Embassy open in Ashgabat instead.
@@ -1063,8 +1067,8 @@ A spokesperson for the Prime Minister of Scotland said “Nur-Sultan was the bes
 
 Sources in the Foreign Ministry told this newspaper that the Turkmenistani government is disappointed, but the decision did not come as a shock.
 
-&lt;center&gt;[[Next|End]]&lt;/center&gt;
-&lt;center&gt;[[Back|Turkmenistan]] | [[Restart|Start]]&lt;/center&gt;
+&lt;div class=&quot;navigation&quot;&gt;&lt;center&gt;[[Next|End]]&lt;/center&gt;
+&lt;center&gt;[[Back|Turkmenistan]] | [[Restart|Start]]&lt;/center&gt;&lt;/div&gt;
 
 
 
